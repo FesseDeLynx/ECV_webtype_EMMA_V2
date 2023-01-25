@@ -45,6 +45,8 @@ span {
     color: tomato;
 }
 
+/* paragraphes */
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -57,3 +59,23 @@ p {
 p + p {
     text-indent: 2%;
   }
+
+  /* ////// paragraphes ///// */
+
+  /* menu liste */
+h5 {
+    font-family: 'Nanum Myeongjo', serif;
+    color: #222430;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  h6 {
+    font-family: 'Nanum Myeongjo', serif;
+    color: #222430;
+    font-weight: 800;
+    text-transform: none;
+    font-size: 1rem;
+  }
+  /* ////// menu liste ////// */
