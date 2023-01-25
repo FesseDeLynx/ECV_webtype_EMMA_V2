@@ -63,19 +63,44 @@ p + p {
   /* ////// paragraphes ///// */
 
   /* menu liste */
-h5 {
+.niveau1{
     font-family: 'Nanum Myeongjo', serif;
-    color: #222430;
-    font-weight: 800;
-    text-transform: uppercase;
     font-size: 2rem;
-  }
-
-  h6 {
-    font-family: 'Nanum Myeongjo', serif;
-    color: #222430;
     font-weight: 800;
-    text-transform: none;
-    font-size: 1rem;
+  }
+  
+.niveau2{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1.2rem;
+    font-weight: 800;
   }
   /* ////// menu liste ////// */
+
+
+  /* liens */
+  
+  a {
+    color: #000;
+  }
+
+  a:link {
+    
+  }
+  
+  a:visited {
+  
+  }
+  
+  a:focus {
+  
+  }
+  
+  a:hover {
+    color: tomato;
+  }
+  
+  a:active {
+    
+  }
+
+    /* ////// Liens ////// */
