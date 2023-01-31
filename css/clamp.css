@@ -1,0 +1,58 @@
+/* DECLARATION DU ROOT */
+
+:root {
+    --text-color: #222430;
+    --background-color: #f7f7f7;
+
+
+
+    /*  https://www.fluid-type-scale.com/ */
+    --font-size-base: clamp(1rem, 0.23vw + 0.94rem, 1.13rem);
+    --font-size-md: clamp(0rem, 4.77vw + -1.19rem, 2.62rem);
+    --font-size-lg: clamp(0rem, 11.13vw + -2.78rem, 6.12rem);
+    --font-size-xl: clamp(0rem, 25.97vw + -6.49rem, 14.29rem);
+    --font-size-xxl: clamp(0rem, 60.6vw + -15.15rem, 33.33rem);
+    --font-size-xxxl: clamp(0rem, 141.37vw + -35.34rem, 77.75rem);
+}
+
+
+/* DECLARATION DU CSS */
+
+body{
+    background-color: var(--background-color);
+    color:var(--text-color);
+}
+
+
+#day {
+    visibility: visible;
+}
+
+#night {
+    visibility: hidden;
+}
+
+
+
+
+   /*  https://rwt.io/typography-tips/readers-right-preferences-and-light-modes */
+   /*  https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/ */
+   
+   @media (prefers-color-scheme: dark) {
+    body {
+      color: #f7f7f7;
+      background: #222430;
+    }
+
+    #day {
+        visibility: hidden;
+    }
+
+    #night {
+        visibility: visible;
+        font-size: var(--font-size-lg);
+        font-weight: 500;
+        color: red;
+    }
+
+}
