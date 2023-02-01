@@ -52,6 +52,12 @@ li {
   font-weight: 700;
   grid-area: volume-03; }
 
+  .chapitre {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    grid-area: volume-03; }
+
 .en-tete { grid-area: en-tete; }
 
 .footer { grid-area: footer; }
