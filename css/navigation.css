@@ -19,19 +19,24 @@ li {
 }
 /* ////// menu liste ////// */
 
+/* lien Emma */
+
+
+
+/* ////// lien Emma ////// */
+
 
 /* menu volume */
 .container { 
   display: grid;
   text-align: center;
   grid-template-columns: 2fr 1fr 2fr; 
-  grid-template-rows: 2fr 1fr 2fr;
+  grid-template-rows:  1fr;
   gap: 0px 0px;
+  margin-top: 5rem;
   grid-auto-flow: row;
   grid-template-areas:
-    "en-tete en-tete en-tete"
-    "volume-01 volume-02 volume-03"
-    "footer footer footer";
+    "volume-01 volume-02 volume-03";
 }
 
 .volume-01 {
@@ -51,23 +56,17 @@ li {
   font-weight: 700;
   grid-area: volume-03; }
 
-.en-tete { grid-area: en-tete; }
-
-.footer { grid-area: footer; }
-
 /* ////// menu volume ////// */
 
 .container-chapitre { 
   display: grid;
   text-align: center;
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1.5fr; 
+  grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "en-tete en-tete en-tete"
     "chapitre-01 chapitre-02 chapitre-03"
-    "footer footer footer";
 }
 
 .chapitre-01 {
