@@ -1,0 +1,30 @@
+
+#day {
+    visibility: visible;
+}
+
+#night {
+    visibility: hidden;
+}
+
+   /*  https://rwt.io/typography-tips/readers-right-preferences-and-light-modes */
+   /*  https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/ */
+   
+   @media (prefers-color-scheme: dark) {
+    body {
+      color: #f7f7f7;
+      background: #222430;
+    }
+
+    #day {
+        visibility: hidden;
+    }
+
+    #night {
+        visibility: visible;
+        font-size: var(--font-size-lg);
+        font-weight: 500;
+        color: red;
+    }
+
+}
