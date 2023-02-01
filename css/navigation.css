@@ -1,6 +1,6 @@
 /* barre menue */
 nav { 
-    width:100%;
+    width:95%;
     min-height: 4vh; 
     padding: 3vh;
 }
@@ -20,21 +20,19 @@ li {
 /* ////// menu liste ////// */
 
 
-/* menu volume  */
+/* menu volume */
 .container { 
   display: grid;
-  grid-template-columns: 0.5fr 1.5fr 1.5fr 1.5fr 0.5fr; 
+  grid-template-columns: 1.5fr 1.5fr 1.5fr; 
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 100px 0px;
+  gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "en-tete en-tete en-tete en-tete en-tete"
-    " marge-droite volume-01 volume-02 volume-03 marge-gauche"
-    "footer footer footer footer footer";
+    "en-tete en-tete en-tete"
+    "volume-01 volume-02 volume-03"
+    "footer footer footer";
 }
 
-.marge-droite { grid-area: marge-droite; }
-.marge-gauche { grid-area: marge-gauche; }
 .volume-01 {
   font-family: 'Nanum Myeongjo', serif;
     font-size: 3rem;
