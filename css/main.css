@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import "nuit.css";
 
-body {
-    background-color: #f7f7f7;
+/* DECLARATION DU ROOT */
 
+:root {
+    --text-color: #222430;
+    --background-color: #f7f7f7;
+    /*  https://www.fluid-type-scale.com/ 
+    --font-size-base: clamp(1rem, 0.23vw + 0.94rem, 1.13rem);
+    --font-size-md: clamp(0rem, 4.77vw + -1.19rem, 2.62rem);
+    --font-size-lg: clamp(0rem, 11.13vw + -2.78rem, 6.12rem);
+    --font-size-xl: clamp(0rem, 25.97vw + -6.49rem, 14.29rem);
+    --font-size-xxl: clamp(0rem, 60.6vw + -15.15rem, 33.33rem);
+    --font-size-xxxl: clamp(0rem, 141.37vw + -35.34rem, 77.75rem); */
 }
 
 header {
@@ -15,3 +25,4 @@ main {
     margin-bottom: 5%;
     margin-top: 5%;
 }
+
