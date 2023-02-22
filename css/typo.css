@@ -40,11 +40,13 @@ h4 {
     
 }
 
-span {
+
+
+span.class1 {
     font-weight: 800;
   }
 
-  span:hover {
+  span.class1:hover {
     color: tomato;
 }
 
