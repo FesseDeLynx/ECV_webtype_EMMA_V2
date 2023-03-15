@@ -35,6 +35,10 @@ body {
   .btn-toggle {
     color: #FCFBF7;
     background-color: #353534;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 60px;
     padding: 4px;
     border-radius: 20px;
@@ -62,14 +66,32 @@ body {
 
  body.dark-theme .btn-toggle span {
     background-color: #353534;
-    -webkit-transform: translateX(29px);
-    -ms-transform: translateX(29px);
-    transform: translateX(29px);
+    -webkit-transform: translateX(28px);
+    -ms-transform: translateX(28px);
+    transform: translateX(28px);
     -webkit-transition: .4s;
     transition: .4s;
   }
 
   body.dark-theme .btn-toggle {
     background-color: #FCFBF7;
- 
+
+  }
+
+  @media (prefers-color-scheme: dark) {
+
+    body.light-theme .btn-toggle span {
+      background-color: #FCFBF7; 
+      -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+      transform: translateX(0px);
+      -webkit-transition: .4s;
+      transition: .4s;
+   }
+  
+   body.light-theme .btn-toggle {
+    background-color: #353534;
+    
+  }
+
   }
