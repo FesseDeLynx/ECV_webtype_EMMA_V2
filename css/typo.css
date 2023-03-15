@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
+h1, h2, h3, h4 {
+ color:  #353534;
+}
+
 h1 {
     font-size: var(--font-size-xl);
     font-family: 'Nanum Myeongjo', serif;
@@ -9,7 +13,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     margin-top: 2vh;
-    text-shadow: #000 0px 0px 0.1rem;
+    text-shadow: #353534 0px 0px 0.1rem;
 }
 
 
@@ -19,6 +23,7 @@ h2 {
     font-weight: 700;
     margin-top: 5rem;
     margin-bottom: 6rem;
+    color: var(--text-color);
     
 }
 
@@ -47,7 +52,7 @@ span.class1 {
   }
 
   span.class1:hover {
-    color: tomato;
+    color: #04A5BB;
 }
 
 /* paragraphes */
@@ -90,27 +95,11 @@ p + p {
   /* liens */
   
   a {
-    color: #000;
-  }
-
-  a:link {
-    
-  }
-  
-  a:visited {
-  
-  }
-  
-  a:focus {
-  
+    color: #353534;
   }
   
   a:hover {
-    color: tomato;
-  }
-  
-  a:active {
-    
+    color: #04A5BB;
   }
 
     /* ////// Liens ////// */

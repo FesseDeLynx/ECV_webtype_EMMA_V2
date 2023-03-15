@@ -1,32 +1,36 @@
-#day {
-    visibility: visible;
-}
-
-#night {
-    visibility: hidden;
-}
-
 body {
-    background-color: #f7f7f7;
-}
-
-   /*  https://rwt.io/typography-tips/readers-right-preferences-and-light-modes */
-   /*  https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/ */
-   
-   @media (prefers-color-scheme: dark) {
+    --text-color: #353534;
+    --bkg-color: #FCFBF7;
+  }
+  body.dark-theme {
+    --text-color: #FCFBF7;
+    --bkg-color: #353534;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
     body {
-      color: #f7f7f7;
-      background: #222430;
+      --text-color: #FCFBF7;
+      --bkg-color: #353534;
     }
+    
+    body.light-theme {
+      --text-color: #353534;
+      --bkg-color: #FCFBF7;
+    }
+  }
+  
+  * {
+    font-family: 'Montserrat' ,Arial, Helvetica, sans-serif;
+  }
+  
+  body, .wrapper {
+    background: var(--bkg-color);
+  }
 
-    #day {
-        visibility: hidden;
-    }
-
-    #night {
-        visibility: visible;
-        font-size: var(--font-size-lg);
-        font-weight: 500;
-        color: red;
-    }
-}
+ 
+  h1, h2, h3, h4, a,
+  p {
+    color: var(--text-color);
+  }
+  
