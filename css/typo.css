@@ -7,13 +7,10 @@ h1, h2, h3, h4 {
 h1 {
     font-size: var(--font-size-xl);
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 14rem;
+    font-size: 4rem;
     font-weight: 800;
     line-height: 0.8;
-    text-transform: uppercase;
-    text-align: center;
     margin-top: 2vh;
-    text-shadow: #353534 0px 0px 0.1rem;
 }
 
 
