@@ -15,20 +15,21 @@ ul {
 li {
   list-style: none;
   padding-left: 2rem;
-  padding-top: 0.3rem;
+  padding-top: 0.5rem;
 }
 
 .niveau1 {
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
   font-weight: 700;
+  color: #353534;
   text-transform: uppercase;
 }
 
 .niveau2{
 font-family: 'Nanum Myeongjo', serif;
-font-size: 1.5rem;
-font-weight: 800;
+font-size: 1,5rem;
+font-weight: 700;
 text-transform: uppercase;
 }
 /* ////// liste volume & chapitre ////// */
