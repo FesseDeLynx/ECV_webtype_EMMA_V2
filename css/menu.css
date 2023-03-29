@@ -1,5 +1,6 @@
 /*  menu burger  */
 
+/* closing animation */
 .wrapper
 {
   position: fixed;
@@ -49,7 +50,9 @@
 	transition: background  .6s;
 }
 
-/* closing animation */
+/* //////// closing animation /////// */
+
+
 /* menu croix */
 #active:checked + .menu-btn span
 {
@@ -65,7 +68,7 @@
 	transform: rotate(-45deg);
   border-color: #FD8370;
 }
-
+/* ///////// menu croix /////// */
 
 /* menu texte */
 .wrapper ul
@@ -136,4 +139,6 @@ input[type="checkbox"]
     transition: all 0.3s ease-in-out;
   }
 
-/* /////////////////////////////// */
+  /* //////  menu texte /////// */
+
+/* //////////menu burger////////// */

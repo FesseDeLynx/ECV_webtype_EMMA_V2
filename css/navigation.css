@@ -6,7 +6,7 @@ nav {
 }
 /* ////// barre menue ////// */
 
-/* menu liste */
+/* liste volume & chapitre */
 ul {
   list-style: none;
   padding-bottom: 1.5rem;
@@ -17,16 +17,24 @@ li {
   padding-left: 2rem;
   padding-top: 0.3rem;
 }
-/* ////// menu liste ////// */
 
-/* lien Emma */
+.niveau1 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.niveau2{
+font-family: 'Nanum Myeongjo', serif;
+font-size: 1.5rem;
+font-weight: 800;
+text-transform: uppercase;
+}
+/* ////// liste volume & chapitre ////// */
 
 
-
-/* ////// lien Emma ////// */
-
-
-/* menu volume */
+/* grid volume */
 .container { 
   display: grid;
   text-align: center;
@@ -56,7 +64,9 @@ li {
   font-weight: 700;
   grid-area: volume-03; }
 
-/* ////// menu volume ////// */
+  /* ////// grid volume ////// */
+
+/* grid volume & chapitre  */
 
 .container-chapitre { 
   display: grid;
@@ -86,3 +96,5 @@ li {
       font-size: 2rem;
       font-weight: 400;
       grid-area: chapitre-03; }
+
+      /* ////// grid volume & chapitre ////// */
