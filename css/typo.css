@@ -21,17 +21,17 @@ h2 {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 3rem;
     font-weight: 700;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     color: var(--text-color);
     
 }
 
 h3 {
     font-weight: 400;
-    font-family: 'Nanum Myeongjo', qerif;
-    font-size: 2rem;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -41,7 +41,6 @@ h4 {
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    margin-top: 1rem;
 }
 
 
@@ -90,7 +89,7 @@ p + p {
     /*  Mise en page  */
     .container02 {
       display: grid;
-      grid-template-columns: 0.5fr 1.5fr;
+      grid-template-columns: 0.5fr 2.2fr;
       grid-template-rows: 0.2fr 2.6fr 0.2fr;
       grid-auto-columns: 1fr;
       grid-auto-rows: 1fr;
@@ -102,15 +101,25 @@ p + p {
         "FOOTER FOOTER";
     }
     
-    .HEADER { grid-area: HEADER; }
+    .HEADER {
+      grid-area: HEADER;
+      
+    }
     
     .Navigation {
     grid-area: Navigation;
-    margin-left: 8%; }
+    margin-left: 8%;
     
-    .TEXTE { grid-area: TEXTE; }
+  }
     
-    .FOOTER { grid-area: FOOTER; }
+    .TEXTE {
+      grid-area: TEXTE;
+      overflow: auto;
+    }
+    
+    .FOOTER {
+      grid-area: FOOTER;
+    }
     
     /* ////// Mise en page ////// */
 

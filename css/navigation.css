@@ -1,15 +1,16 @@
-/* barre menue */
+/* barre menue 
 nav { 
     width:95%;
     min-height: 4vh; 
     padding: 3vh;
 }
-/* ////// barre menue ////// */
+ ////// barre menue ////// */
 
 /* liste volume & chapitre */
 ul {
   list-style: none;
   padding-bottom: 1.5rem;
+  
 }
 
 li {

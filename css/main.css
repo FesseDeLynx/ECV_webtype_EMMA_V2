@@ -22,3 +22,9 @@
     --font-size-xxxl: clamp(0rem, 141.37vw + -35.34rem, 77.75rem);
     }
     */
+
+    header {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }

@@ -1,4 +1,4 @@
-/* /// Arrows scroll to top and bottom /// */
+/* Arrows scroll to top and bottom */
 .arrow-wrapper
 {
     display: flex;
@@ -6,8 +6,8 @@
     float: right;
     position: fixed;
     overflow-x: hidden;
-    top: 94%;
-    right: 2%;
+    top: 95%;
+    right: 3%;
     z-index: 1;
 }
 
@@ -17,16 +17,18 @@
     height: 0;
     border-right: 16px solid transparent;
     border-left: 16px solid transparent;
-    border-bottom: 20px solid #222430;
+    border-bottom: 20px solid #FCFBF7;
     
 }
 
 .arrow-up:hover
 {
-    border-bottom: 20px solid tomato;
+    border-bottom: 20px solid #04AA6D;
 }
 
 .arrow-down:hover
 {
-    border-top: 20px solid tomato;
+    border-top: 20px solid #04AA6D;
 }
+
+/* //////// Arrows scroll to top and bottom //////// */
