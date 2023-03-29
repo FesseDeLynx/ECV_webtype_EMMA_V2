@@ -18,8 +18,13 @@ h1 {
 
 
 h2 {
+  display: flex;
+    float: right;
+    position: fixed;
+    top: 1%;
+    left: 3%;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-top: 0rem;
     margin-bottom: 0rem;
@@ -50,7 +55,7 @@ span.class1 {
   }
 
   span.class1:hover {
-    color: #04A5BB;
+    color: #04AA6D;
 }
 
 /* paragraphes */
@@ -69,9 +74,6 @@ p + p {
     padding-top: 2%;
   }
 
-  p, h4 {
-
-}
 
   /* ////// paragraphes ///// */
   /* liens */
@@ -81,7 +83,11 @@ p + p {
   }
   
   a:hover {
-    color: #04A5BB;
+    color: #04AA6D;
+  }
+
+  a.active {
+    color: #04AA6D;
   }
 
     /* ////// Liens ////// */
@@ -108,7 +114,9 @@ p + p {
     
     .Navigation {
     grid-area: Navigation;
-    margin-left: 8%;
+    margin-top: 15%;
+    margin-left: 2%;
+    position: fixed;
     
   }
     
