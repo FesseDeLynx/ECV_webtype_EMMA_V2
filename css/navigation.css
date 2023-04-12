@@ -118,4 +118,8 @@ text-transform: uppercase;
       font-weight: 400;
       }
 
+      .btn-start a:hover {
+        font-weight: 600;
+        }
+
       /* ////// bonton start ////// */

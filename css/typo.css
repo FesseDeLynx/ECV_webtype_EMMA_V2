@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
  color:  #353534;
 }
 
@@ -28,7 +28,11 @@ h2 {
     font-weight: 700;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    color: var(--text-color);
+    
+}
+
+h2 a {
+    color: #FCFBF7;
     
 }
 
