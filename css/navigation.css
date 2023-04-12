@@ -53,18 +53,21 @@ text-transform: uppercase;
   font-family: 'Nanum Myeongjo', serif;
     font-size: 3rem;
     font-weight: 700;
-  grid-area: volume-01; }
+  grid-area: volume-01;
+}
 
 .volume-02 { 
   font-family: 'Nanum Myeongjo', serif;
     font-size: 3rem;
     font-weight: 700;
-    grid-area: volume-02; }
+    grid-area: volume-02;
+  }
 
 .volume-03 { font-family: 'Nanum Myeongjo', serif;
   font-size: 3rem;
   font-weight: 700;
-  grid-area: volume-03; }
+  grid-area: volume-03;
+}
 
   /* ////// grid volume ////// */
 
@@ -85,18 +88,34 @@ text-transform: uppercase;
   font-family: 'Nanum Myeongjo', serif;
   font-size: 2rem;
   font-weight: 400;
-  grid-area: chapitre-01; }
+  grid-area: chapitre-01;
+}
 
 .chapitre-02 {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 2rem;
     font-weight: 400;
-    grid-area: chapitre-02; }
+    grid-area: chapitre-02;
+  }
 
 .chapitre-03 {
       font-family: 'Nanum Myeongjo', serif;
       font-size: 2rem;
       font-weight: 400;
-      grid-area: chapitre-03; }
+      grid-area: chapitre-03;
+    }
 
       /* ////// grid volume & chapitre ////// */
+
+
+      /* bonton start  */
+
+      .btn-start {
+      text-align: center;
+      margin-top: 10vh;
+      font-family: 'Nanum Myeongjo', serif;
+      font-size: 2rem;
+      font-weight: 400;
+      }
+
+      /* ////// bonton start ////// */
