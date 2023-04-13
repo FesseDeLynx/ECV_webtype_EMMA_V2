@@ -1,12 +1,12 @@
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
     
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    text-align: left;
+    text-align: justify;
     line-height: 150%;
     margin-bottom: 0rem;
 }
@@ -14,42 +14,138 @@ p {
 p + p {
     text-indent: 2%;
   }
-
-  p, h4 {
-    margin-left: 10%;
-    margin-right: 10%;
 }
-}*/
+
+h1 {
+     font-size: 4rem;
+ }
+
+.HEADER {
+    grid-area: HEADER;
+    margin-top: 10%;
+  }
+
+.Navigation {
+    grid-area: Navigation;
+    margin-top: 20%;
+    margin-left: -4%;
+    position: fixed;
+    
+  }
+
+  .TEXTE {
+    grid-area: TEXTE;
+    overflow: auto;
+    margin-right: 5%;
+    margin-left: 18%;
+    margin-top: -25%;
+  }
+
+  .btn-start {
+    text-align: center;
+    margin-top: 10vh;
+    }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/*@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     
-    p, h4 {
- 
+    h1 {
+        font-size: 10rem;
     }
-} */
+
+    .HEADER {
+        grid-area: HEADER;
+        margin-top: 0%;
+      }
+
+    .Navigation {
+        grid-area: Navigation;
+        margin-top: 20%;
+        margin-left: 0%;
+        position: fixed;
+        
+      }
+
+      .TEXTE {
+        grid-area: TEXTE;
+        overflow: auto;
+        margin-right: 5%;
+        margin-left: 15%;
+        margin-top: -10%;
+      }
+} 
 
 /* Medium devices (landscape tablets, 768px and up) */
-/*@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     
-    p, h4 {
-     
+    h1 {
+        font-size: 12rem;
     }
-}*/
+
+    .Navigation {
+        grid-area: Navigation;
+        margin-top: 16%;
+        margin-left: 0%;
+        position: fixed;
+        
+      }
+
+      .TEXTE {
+        grid-area: TEXTE;
+        overflow: auto;
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-top: -5%;
+      }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-/*@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     
-    p, h4 {
-    
+    h1 {
+        font-size: 14rem;
     }
-}*/
+
+
+    .Navigation {
+        grid-area: Navigation;
+        margin-top: 12%;
+        margin-left: 2%;
+        position: fixed;
+        
+      }
+
+      .TEXTE {
+        grid-area: TEXTE;
+        overflow: auto;
+        margin-right: 8%;
+        margin-left: 5%;
+        margin-top: -2%;
+      }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/*@media only screen and (min-width: 1200px) {
-    
-    p, h4 {
-    
-    }
-}*/
+@media only screen and (min-width: 1200px) {
+
+    .Navigation {
+        grid-area: Navigation;
+        margin-top: 6%;
+        margin-left: 2%;
+        position: fixed;
+        
+      }
+
+      .TEXTE {
+        grid-area: TEXTE;
+        overflow: auto;
+        margin-right: 20%;
+        margin-left: 10%;
+        margin-top: 0%;
+      }
+
+      .btn-start {
+        text-align: center;
+        margin-top: 10vh;
+        }
+}
 

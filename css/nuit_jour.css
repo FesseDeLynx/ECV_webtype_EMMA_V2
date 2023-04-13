@@ -1,22 +1,24 @@
+@import "typo.css";
+
 body {
     --text-color: #353534;
-    --bkg-color: #FCFBF7;
+    --bkg-color: #f2f2f2;
   }
   body.dark-theme {
-    --text-color: #FCFBF7;
+    --text-color: #f2f2f2;
     --bkg-color: #353534;
   }
   
   @media (prefers-color-scheme: dark) {
     /* defaults to dark theme */
     body {
-      --text-color: #FCFBF7;
+      --text-color: #f2f2f2;
       --bkg-color: #353534;
     }
     
     body.light-theme {
       --text-color: #353534;
-      --bkg-color: #FCFBF7;
+      --bkg-color: #f2f2f2;
     }
   }
   
@@ -33,8 +35,27 @@ body {
   }
 
   .btn-toggle {
-    color: #FCFBF7;
-    background-color: #353534;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 1rem;
+  float: right;
+  color: #f2f2f2;
+  background-color: #353534;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border: none;
+}
+
+.btn-toggle:hover {
+  background-color: #f2f2f2;
+  color: #04AA6D;
+}
+
+/*  .btn-toggle {
+    color: #353534;
+    background-color: #FCFBF7;
     top: 0;
     left: 0;
     right: 0;
@@ -46,8 +67,9 @@ body {
 }
 
 .btn-toggle span {
+  color: #353534;
+  background-color: #FCFBF7;
     display: block;
-    background-color: #FCFBF7;
     width: 20px;
     height: 20px;
     border-radius: 100%;
@@ -55,7 +77,8 @@ body {
  }
 
  body.light-theme .btn-toggle span {
-    background-color: #FCFBF7; 
+  color: #353534;
+  background-color: #FCFBF7;
     -webkit-transform: translateX(0px);
     -ms-transform: translateX(0px);
     transform: translateX(0px);
@@ -65,7 +88,8 @@ body {
 
 
  body.dark-theme .btn-toggle span {
-    background-color: #353534;
+  color: #353534;
+  background-color: #FCFBF7;
     -webkit-transform: translateX(28px);
     -ms-transform: translateX(28px);
     transform: translateX(28px);
@@ -74,6 +98,7 @@ body {
   }
 
   body.dark-theme .btn-toggle {
+    color: #353534;
     background-color: #FCFBF7;
 
   }
@@ -81,7 +106,8 @@ body {
   @media (prefers-color-scheme: dark) {
 
     body.light-theme .btn-toggle span {
-      background-color: #FCFBF7; 
+      color: #353534;
+      background-color: #FCFBF7;
       -webkit-transform: translateX(0px);
       -ms-transform: translateX(0px);
       transform: translateX(0px);
@@ -90,7 +116,8 @@ body {
    }
   
    body.light-theme .btn-toggle {
-    background-color: #353534;
+    color: #353534;
+    background-color: #FCFBF7;
     
   }
 
@@ -102,8 +129,9 @@ body {
     float: right;
     position: fixed;
     overflow-x: hidden;
-    top: 6%;
-    right: 1.5%;
-    z-index: 1;
+    top: 95%;
+    right: 12%;
   }
 
+  
+  z-index: 1;/*
