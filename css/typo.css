@@ -105,7 +105,6 @@ p + p {
       gap: 16px 16px;
       background-clip : content-box;
       background-color: #353534;
-      height: auto;
       grid-auto-flow: row;
       grid-template-areas:
         "HEADER HEADER"
@@ -119,8 +118,8 @@ p + p {
     
     .Navigation {
     grid-area: Navigation;
-    margin-top: 5%;
-    margin-left: 2%;
+    margin-top: 8vh;
+    margin-left: 5vh;
     position: fixed;
     
   }
@@ -128,8 +127,10 @@ p + p {
     .TEXTE {
       grid-area: TEXTE;
       overflow: auto;
-      margin-right: 20%;
-      margin-left: 10%;
+      margin-right: 20vh;
+    margin-left: 40vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     }
     
     .FOOTER {
