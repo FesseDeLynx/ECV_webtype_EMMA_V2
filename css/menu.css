@@ -1,9 +1,8 @@
 @import "typo.css";
-
 /* menu barre top */
 .topnav {
   font-family: 'Nanum Myeongjo', serif;
-    font-size: 1rem;
+font-size: 1rem;
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -72,3 +71,19 @@ background-color: #353534;
 }
 
 /* //////menu barre bottom/////// */
+
+
+/*.bgtopnav {
+  background-color: #353534;
+  width: 100%;
+  height: 12vh;
+  display: flex;
+    text-orientation: mixed;
+    float: right;
+    position: fixed;
+    overflow-x: hidden;
+    top: 0%;
+    right: 0%;
+    background-position : 10px 0;
+
+}/*
