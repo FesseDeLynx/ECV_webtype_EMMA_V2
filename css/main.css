@@ -8,7 +8,7 @@
 @import "nuit_jour.css";
 
 
-/* DECLARATION DU ROOT 
+/* DECLARATION DU ROOT  
 
 :root {
     --text-color: #222430;
@@ -21,7 +21,8 @@
     --font-size-xxl: clamp(0rem, 60.6vw + -15.15rem, 33.33rem);
     --font-size-xxxl: clamp(0rem, 141.37vw + -35.34rem, 77.75rem);
     }
-    */
+
+  ///// DECLARATION DU ROOT ////  */
 
     header {
       position: absolute;
